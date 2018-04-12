@@ -1,6 +1,8 @@
 /* eslint new-cap: 0 */
 'use strict';
 
+require('./db');
+
 const express = require('express');
 const app = express();
 
